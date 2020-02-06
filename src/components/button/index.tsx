@@ -1,9 +1,9 @@
 import React from "react";
 import "./button.scss";
 
-const Button = ({ content }: { content: String }) => {
+const Button = ({ content, color }: { content: String, color?: String }) => {
     return (
-        <div className="Button">
+        <div className="Button" style={color && { backgroundColor: `${color}`}}>
             {content}
         </div>
     );

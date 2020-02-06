@@ -1,7 +1,11 @@
 .Main {
-  .main-half {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+  .container {
+    padding: 15vh 0;
+
+    .main-half {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+    }
   }
 }
